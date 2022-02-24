@@ -1,0 +1,69 @@
+"Start Recording"
+1) Load http://localhost:4022/#/organizations (refresh page)
+2) Load Aria420
+3) Click User Tab
+4) Click License Tab
+5) Click Org Tab
+6) Load Change
+7) Click User Tab
+8) Click License Tab
+9) Click Org Tab
+10) Load Aria420
+11) Click User Tab
+12) Click License Tab
+"Stop Recording"
+
+Total api calls = 100
+
+FULL URL ANALYSIS
+1 :: "https://ego-dev.dev.rosettastone.com/api/users/566206c4-76a4-4a66-80e3-75af49d73212"
+1 :: "https://ego-dev.dev.rosettastone.com/api/groups/0b0e71af5e82725587827d024cd9f05a"
+13 :: "https://ego-dev.dev.rosettastone.com/api/groups/0b0e71af5e82725587827d024cd9f05a/members/query?bookmark=0&limit=1&q=status%3DACTIVE+OR+status%3DUNREGISTERED&returnFields=gui,firstName,lastName,email,interfaceLanguage,roles,groups,salesPackages,type,registrationDate,userField1,userField2,userField3,userField4,userField5,userField6,notes,creationDate,modificationDate,organization,status,type&sort=lastName+ASC,+firstName+ASC"
+3 :: "https://ego-dev.dev.rosettastone.com/api/groups?offset=0&size=500&sort=name&type=Organization"
+13 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?orgId=0b0e71af5e82725587827d024cd9f05a&pageSize=20"
+3 :: "https://ego-dev.dev.rosettastone.com/api/groups?offset=500&size=500&sort=name&type=Organization"
+3 :: "https://ego-dev.dev.rosettastone.com/api/groups?offset=1000&size=500&sort=name&type=Organization"
+3 :: "https://ego-dev.dev.rosettastone.com/api/groups?offset=1500&size=500&sort=name&type=Organization"
+3 :: "https://ego-dev.dev.rosettastone.com/api/groups?offset=2000&size=500&sort=name&type=Organization"
+3 :: "https://ego-dev.dev.rosettastone.com/api/groups?offset=2500&size=500&sort=name&type=Organization"
+3 :: "https://ego-dev.dev.rosettastone.com/api/groups?offset=3000&size=500&sort=name&type=Organization"
+3 :: "https://ego-dev.dev.rosettastone.com/api/groups?offset=3500&size=500&sort=name&type=Organization"
+3 :: "https://ego-dev.dev.rosettastone.com/api/groups?offset=4000&size=500&sort=name&type=Organization"
+3 :: "https://ego-dev.dev.rosettastone.com/api/groups?offset=4500&size=500&sort=name&type=Organization"
+3 :: "https://ego-dev.dev.rosettastone.com/api/groups?offset=5000&size=500&sort=name&type=Organization"
+1 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?orgId=0b0e71af5e82725587827d024cd9f05a&pageSize=50"
+1 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?bookmark=%7B%22nextStartKey%22:%5B%220b0e71af5e82725587827d024cd9f05a%22,%22PurchaseOrder.0b0e71af5e82725587827d024cd9f05a.345h45%22,%22salesPackage.7377ee74-0b76-4af2-b061-3bf22f3b8874%22,%22product.d8aead88-fcca-4128-868e-fdc8f0bc6f33%22,%22EntitlementConfig.48ecf9f0-64be-4ecd-88e1-819b590d7766%22,%22role%22,%22role.rsm.clientServicesManager%22,null,%22FIXED%22,%222014-10-09T04:00:00.000Z%22,%222014-11-01T04:00:00.000Z%22,0,null,0%5D%7D&orgId=0b0e71af5e82725587827d024cd9f05a&pageSize=50"
+1 :: "https://ego-dev.dev.rosettastone.com/api/groups/0b0e71af5e82725587827d024cd9f05a/members/query?limit=5000&q=status%3DACTIVE+OR+status%3DUNREGISTERED&returnFields=gui"
+2 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?orgId=0b0e71af5e82725587827d024cd9f05a"
+1 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?bookmark=%7B%22nextStartKey%22:%5B%220b0e71af5e82725587827d024cd9f05a%22,%22PurchaseOrder.0b0e71af5e82725587827d024cd9f05a.john%22,%22salesPackage.24c1b8c3-cc03-416c-8b65-b2d648870464%22,%22product.e6e353e1-7e31-4f36-a995-8bd4facddaf5%22,%22ProductEntitlementConfig.afecd8b1-3f81-4a02-93db-47e139df80ec%22,%22product%22,%22product.20bb0ddd-4406-4fb0-b460-89037d626509%22,null,%22FIXED%22,%222020-12-12T05:00:00.000Z%22,%222021-01-02T05:00:00.000Z%22,0,null,0%5D%7D&orgId=0b0e71af5e82725587827d024cd9f05a&pageSize=50"
+2 :: "https://ego-dev.dev.rosettastone.com/api/groups/0b0e71af5e82725587827d024cd9f05a/members/query?limit=5000&q=status%3DACTIVE+OR+status%3DUNREGISTERED&returnFields=gui,firstName,lastName,email,interfaceLanguage,organization,roles,groups,salesPackages,type,registrationDate,userField1,userField2,userField3,userField4,userField5,userField6,notes&sort=lastName+ASC,+firstName+ASC"
+2 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?bookmark=%7B%22nextStartKey%22:%5B%220b0e71af5e82725587827d024cd9f05a%22,%22PurchaseOrder.0b0e71af5e82725587827d024cd9f05a.12345%22,%22salesPackage.18804371-d2ee-4945-8d09-58d67d46d45f%22,%22product.20bb0ddd-4406-4fb0-b460-89037d626509%22,%22EntitlementConfig.2df579a9-d610-4d2c-9f77-36f5a8cf6e7a%22,%22service%22,%22consumable.bee7a668-5c50-420c-83fc-7991f44938b7%22,null,%22FIXED%22,%222014-12-01T05:00:00.000Z%22,%222015-12-01T05:00:00.000Z%22,2,%22MONTH%22,4%5D%7D&orgId=0b0e71af5e82725587827d024cd9f05a"
+2 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?bookmark=%7B%22nextStartKey%22:%5B%220b0e71af5e82725587827d024cd9f05a%22,%22PurchaseOrder.0b0e71af5e82725587827d024cd9f05a.1449261079%22,%22salesPackage.24c1b8c3-cc03-416c-8b65-b2d648870464%22,%22product.e6e353e1-7e31-4f36-a995-8bd4facddaf5%22,%22EntitlementConfig.ae2e0f3a-67ed-4fae-b930-9b5e1667a6c9%22,%22content%22,%22bundle.045a8a76-99cc-4d97-a573-0e427d0d7a26%22,null,%22FIXED%22,%222020-12-12T05:00:00.000Z%22,%222021-01-02T05:00:00.000Z%22,0,null,0%5D%7D&orgId=0b0e71af5e82725587827d024cd9f05a"
+4 :: "https://siren-dev.dev.rosettastone.com/api/organizations/0b0e71af5e82725587827d024cd9f05a/search/entitlements?pageSize=5000"
+2 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?bookmark=%7B%22nextStartKey%22:%5B%220b0e71af5e82725587827d024cd9f05a%22,%22PurchaseOrder.0b0e71af5e82725587827d024cd9f05a.abcdefg123456%22,%22salesPackage.8a8ee699-5c95-412f-bfb1-396dea29ad28%22,%22product.82692f39-a40e-4051-a6dc-e0cbf027c80b%22,%22EntitlementConfig.483b0f1c-d85c-457b-9b66-23c997f6ab94%22,%22role%22,%22role.aeb.learner%22,null,%22FIXED%22,%222015-08-01T04:00:00.000Z%22,%222016-06-30T04:00:00.000Z%22,0,null,0%5D%7D&orgId=0b0e71af5e82725587827d024cd9f05a"
+2 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?bookmark=%7B%22nextStartKey%22:%5B%220b0e71af5e82725587827d024cd9f05a%22,%22PurchaseOrder.0b0e71af5e82725587827d024cd9f05a.aria.007%22,%22salesPackage.9f3e3877-619e-469a-ae9d-375bd2e3613b%22,%22product.20bb0ddd-4406-4fb0-b460-89037d626509%22,%22ProductEntitlementConfig.96fe9f1e-d8db-42f1-8c81-1eadab18f6e4%22,%22product%22,%22product.20bb0ddd-4406-4fb0-b460-89037d626509%22,%222014-12-31T05:00:00.000Z%22,%22DURATION%22,%22MONTH%22,6,0,null,0%5D%7D&orgId=0b0e71af5e82725587827d024cd9f05a"
+2 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?bookmark=%7B%22nextStartKey%22:%5B%220b0e71af5e82725587827d024cd9f05a%22,%22PurchaseOrder.0b0e71af5e82725587827d024cd9f05a.john%22,%22salesPackage.24c1b8c3-cc03-416c-8b65-b2d648870464%22,%22product.e6e353e1-7e31-4f36-a995-8bd4facddaf5%22,%22ProductEntitlementConfig.afecd8b1-3f81-4a02-93db-47e139df80ec%22,%22product%22,%22product.20bb0ddd-4406-4fb0-b460-89037d626509%22,null,%22FIXED%22,%222020-12-12T05:00:00.000Z%22,%222021-01-02T05:00:00.000Z%22,0,null,0%5D%7D&orgId=0b0e71af5e82725587827d024cd9f05a"
+1 :: "https://siren-dev.dev.rosettastone.com/api/salespackages?pageSize=100"
+2 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?orgId=0b0e71af5e82725587827d024cd9f05a&pageSize=200"
+3 :: "https://ego-dev.dev.rosettastone.com/api/groups/a83b934ca89f77d2f1476b87136d600f/members/query?bookmark=0&limit=1&q=status%3DACTIVE+OR+status%3DUNREGISTERED&returnFields=gui,firstName,lastName,email,interfaceLanguage,roles,groups,salesPackages,type,registrationDate,userField1,userField2,userField3,userField4,userField5,userField6,notes,creationDate,modificationDate,organization,status,type&sort=lastName+ASC,+firstName+ASC"
+1 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?orgId=a83b934ca89f77d2f1476b87136d600f&pageSize=50"
+1 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?bookmark=%7B%22nextStartKey%22:%5B%22a83b934ca89f77d2f1476b87136d600f%22,%22PurchaseOrder.a83b934ca89f77d2f1476b87136d600f.erqewrwer%22,%22salesPackage.8a8ee699-5c95-412f-bfb1-396dea29ad28%22,%22product.82692f39-a40e-4051-a6dc-e0cbf027c80b%22,%22EntitlementConfig.61c14fe6-e7ba-4025-b537-1233da497b38%22,%22role%22,%22role.aeb.learner%22,null,%22FIXED%22,%222015-07-26T04:00:00.000Z%22,%222016-07-29T04:00:00.000Z%22,0,null,0%5D%7D&orgId=a83b934ca89f77d2f1476b87136d600f&pageSize=50"
+3 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?orgId=a83b934ca89f77d2f1476b87136d600f&pageSize=20"
+1 :: "https://ego-dev.dev.rosettastone.com/api/groups/a83b934ca89f77d2f1476b87136d600f/members/query?limit=5000&q=status%3DACTIVE+OR+status%3DUNREGISTERED&returnFields=gui,firstName,lastName,email,interfaceLanguage,organization,roles,groups,salesPackages,type,registrationDate,userField1,userField2,userField3,userField4,userField5,userField6,notes&sort=lastName+ASC,+firstName+ASC"
+1 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?orgId=a83b934ca89f77d2f1476b87136d600f"
+1 :: "https://siren-dev.dev.rosettastone.com/api/organizations/a83b934ca89f77d2f1476b87136d600f/search/entitlements?pageSize=5000"
+1 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?bookmark=%7B%22nextStartKey%22:%5B%22a83b934ca89f77d2f1476b87136d600f%22,%22PurchaseOrder.a83b934ca89f77d2f1476b87136d600f.243%22,%22salesPackage.ca2ee7f3-ab3c-4622-9ef9-faeb063744fb%22,%22product.20bb0ddd-4406-4fb0-b460-89037d626509%22,%22ProductEntitlementConfig.3590d4d9-cd3d-496f-90e5-bda3f36b85f6%22,%22product%22,%22product.20bb0ddd-4406-4fb0-b460-89037d626509%22,null,%22FIXED%22,%222015-03-31T04:00:00.000Z%22,%222015-12-10T05:00:00.000Z%22,0,null,0%5D%7D&orgId=a83b934ca89f77d2f1476b87136d600f"
+1 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?bookmark=%7B%22nextStartKey%22:%5B%22a83b934ca89f77d2f1476b87136d600f%22,%22PurchaseOrder.a83b934ca89f77d2f1476b87136d600f.4354%22,%22salesPackage.c70c9db0-54de-4311-9366-db9f068b35cb.test%22,%22product.20bb0ddd-4406-4fb0-b460-89037d626509%22,%22EntitlementConfig.4579e0bd-2f3f-41be-999a-28e36c25e9ab%22,%22role%22,%22role.aeb.learner%22,null,%22FIXED%22,%222015-09-02T04:00:00.000Z%22,%222016-09-02T04:00:00.000Z%22,0,null,0%5D%7D&orgId=a83b934ca89f77d2f1476b87136d600f"
+1 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary?orgId=a83b934ca89f77d2f1476b87136d600f&pageSize=200"
+
+
+BASE URL ANALYSIS
+45 :: "https://ego-dev.dev.rosettastone.com/api/groups"
+2 :: "https://ego-dev.dev.rosettastone.com/api/users/566206c4-76a4-4a66-80e3-75af49d73212"
+2 :: "https://ego-dev.dev.rosettastone.com/api/groups/0b0e71af5e82725587827d024cd9f05a"
+17 :: "https://ego-dev.dev.rosettastone.com/api/groups/0b0e71af5e82725587827d024cd9f05a/members/query"
+40 :: "https://siren-dev.dev.rosettastone.com/api/entitlements/summary"
+4 :: "https://siren-dev.dev.rosettastone.com/api/organizations/0b0e71af5e82725587827d024cd9f05a/search/entitlements"
+1 :: "https://siren-dev.dev.rosettastone.com/api/salespackages"
+4 :: "https://ego-dev.dev.rosettastone.com/api/groups/a83b934ca89f77d2f1476b87136d600f/members/query"
+1 :: "https://siren-dev.dev.rosettastone.com/api/organizations/a83b934ca89f77d2f1476b87136d600f/search/entitlements"
